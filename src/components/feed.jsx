@@ -11,7 +11,6 @@ const Feed = () => {
       <Posts/>
       <Posts/>
       <Posts/>
-   
     </Box>
   )
 }

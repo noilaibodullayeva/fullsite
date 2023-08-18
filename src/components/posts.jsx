@@ -3,20 +3,18 @@ import {
     Avatar,
     Card,
     CardActions,
-    CardContent,
-    CardHeader,
-    CardMedia,
-    Checkbox,
+    CardContent, 
+    CardHeader, 
+    CardMedia, 
+    Checkbox, 
     IconButton,
     Typography
 } from '@mui/material'
-import {
-    Favorite,
-    FavoriteBorder,
-    MoreVert,
-    Share,
-    Comment
-} from '@mui/icons-material'
+import { Favorite, 
+    FavoriteBorder, 
+    MoreVert, 
+    Share, 
+    Comment } from '@mui/icons-material'
 
 
 function posts() {

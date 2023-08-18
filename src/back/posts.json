@@ -1,0 +1,92 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "avatar": "L",
+            "user": "Noila Ibodullayeva",
+            "date": "12.11.2023",
+            "img": "https://avatars.mds.yandex.net/i?id=51de0e619cf24f7799af7f4174731b48e949c6ec-8497122-images-thumbs&n=13",
+            "desc": "Life is so beautiful so do not try to make it difficult to live, be happy and just live there"
+        },
+        {
+            "id": 2,
+            "avatar": "L",
+            "user": "Ann Joe",
+            "date": "06.12.2023",
+            "img": "https://avatars.mds.yandex.net/i?id=baab74af260bc8281ccfec48c0a10aa9c216e97e-9246177-images-thumbs&n=13",
+            "desc": "“If you don't design your own life plan, chances are you’ll fall into someone else’s plan. And guess what they have planned for you? Not much..” — Jim Rohn"
+        },
+        {
+            "id": 3,
+            "avatar": "L",
+            "user": "Laylo-0_09",
+            "date": "04.10.2023",
+            "img": "https://avatars.mds.yandex.net/i?id=fd0db58a78a3628f3fe0313d0fee8f8968d5ece8-9203527-images-thumbs&n=13",
+            "desc": "The key is to keep company only with people who uplift you, whose presence calls forth your best..” — Epictetus"
+        },
+        {
+            "id": 4,
+            "avatar": "L",
+            "user": "John Adams",
+            "date": "23.02.2023",
+            "img": "https://avatars.mds.yandex.net/i?id=e075323cd80b17db7367f49893f4f5e25b23690c-9097502-images-thumbs&n=13",
+            "desc": "“Good, better, best. Never let it rest. ’Til your good is better and your better is best..” — Jerome"
+        },
+        {
+            "id": 5,
+            "avatar": "L",
+            "user": "Browns",
+            "date": "02.12.2023",
+            "img": "https://avatars.mds.yandex.net/i?id=ea59e199ac83e0f1a2585c7789b3a3ef1e038712-10354084-images-thumbs&n=13",
+            "desc": "Life is so beautiful so do not try to make it difficult to live, be happy and just live there"
+        },
+        {
+            "id": 6,
+            "avatar": "L",
+            "user": "Dilnoza_09_me",
+            "date": "14.08.2023",
+            "img": "https://avatars.mds.yandex.net/i?id=17326588d5eae62aa2550c9ed5fa1da844a8b788-9185952-images-thumbs&n=13",
+            "desc": "Life is so beautiful so do not try to make it difficult to live, be happy and just live there"
+        },
+        {
+            "id": 7,
+            "avatar": "L",
+            "user": "Mehribon",
+            "date": "05.12.2023",
+            "img": "https://avatars.mds.yandex.net/i?id=1737a62cc89a5cf31e684f1640961fa0da5f7f3c-4688954-images-thumbs&n=13",
+            "desc": "Life is so beautiful so do not try to make it difficult to live, be happy and just live there"
+        },
+        {
+            "id": 8,
+            "avatar": "L",
+            "user": "Ann Joe",
+            "date": "06.12.2023",
+            "img": "",
+            "desc": "Life is so beautiful so do not try to make it difficult to live, be happy and just live there"
+        },
+        {
+            "id": 9,
+            "avatar": "L",
+            "user": "Marko-boy",
+            "date": "06.12.2023",
+            "img": "https://avatars.mds.yandex.net/i?id=b02c22e460dff02c51f4ae43e86c2b568d0ff8a0-9237918-images-thumbs&n=13",
+            "desc": "Life is so beautiful so do not try to make it difficult to live, be happy and just live there"
+        },
+        {
+            "id": 10,
+            "avatar": "L",
+            "user": "Amiliy",
+            "date": "06.11.2023",
+            "img": "https://avatars.mds.yandex.net/i?id=80b43b2ece34cef1ebad05b238755291adf708cd-9234614-images-thumbs&n=13",
+            "desc": "Life is so beautiful so do not try to make it difficult to live, be happy and just live there"
+        },
+        {
+            "id": 11,
+            "avatar": "L",
+            "user": "Jonathan",
+            "date": "06.12.2023",
+            "img": "https://avatars.mds.yandex.net/i?id=2fc0bdf7961103bc8052c42267a31475afa4070f-9237918-images-thumbs&n=13",
+            "desc": "Life is so beautiful so do not try to make it difficult to live, be happy and just live there"
+        }
+    ]
+}
