@@ -69,11 +69,12 @@ function Navbar() {
                 </Icons>
                 <User onClick={(e) => setOpen(true)} >
                     <Typography variant='span'>
-                        John
+                        Noila
                     </Typography>
                     <Avatar sx={{ width: 30, height: 30 }} src={avatrarimage} />
                 </User>
             </StyledToolbar>
+            
             <Menu
                 id="demo-positioned-menu"
                 aria-labelledby="demo-positioned-button"

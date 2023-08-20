@@ -1,30 +1,43 @@
-import React from 'react'
+import { useEffect, useState } from 'react'
 import {
     Avatar,
     Card,
     CardActions,
-    CardContent, 
-    CardHeader, 
-    CardMedia, 
-    Checkbox, 
+    CardContent,
+    CardHeader,
+    CardMedia,
+    Checkbox,
     IconButton,
     Typography
 } from '@mui/material'
-import { Favorite, 
-    FavoriteBorder, 
-    MoreVert, 
-    Share, 
-    Comment } from '@mui/icons-material'
-
+import {
+    Favorite,
+    FavoriteBorder,
+    MoreVert,
+    Share,
+    Comment
+} from '@mui/icons-material'
+import axios from 'axios';
 
 function posts() {
 
+    const URL = "http://localhost:8998/posts"
+    const [posts, setPosts] = useState([])
+
+    useEffect(() => {
+      axios.get(URL).then(val => {
+        setPosts(val.data)
+    })
+}, [])
     return (
-        <Card sx={{ margin: 5 }}>
+       <>
+       {posts.map((post, index)=>{
+        return(
+            <Card sx={{ margin: 5 }} key={index}>
             <CardHeader
                 avatar={
-                    <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
-                        N
+                    <Avatar sx={{ bgColor: "red" }} aria-label="recipe">
+                        {post.avatar}
                     </Avatar>
                 }
                 action={
@@ -32,21 +45,18 @@ function posts() {
                         <MoreVert />
                     </IconButton>
                 }
-                title="Ann Maria"
-                subheader="September 14, 2023"
+                title={post.user}
+                subheader={post.date}
             />
             <CardMedia
                 component="img"
                 height="16%"
-                image="https://avatars.mds.yandex.net/i?id=8006197139486f1b35cd6c5016aea35f54df16be-9652646-images-thumbs&n=13"
+                image={post.img}
                 alt="Paella dish"
             />
             <CardContent>
                 <Typography variant="body2" color="text.secondary">
-                    This impressive paella is a perfect party dish and a fun meal to cook
-                    together with your guests. Add 1 cup of frozen peas along with the mussels,
-                    if you like together with your guests. Add 1 cup of frozen peas along with the mussels,
-                    if you like.
+                    {post.desc}
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>
@@ -61,6 +71,9 @@ function posts() {
                 </IconButton>
             </CardActions>
         </Card>
+        )
+       })}
+       </>
     )
 }
 

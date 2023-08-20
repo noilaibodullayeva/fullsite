@@ -2,15 +2,15 @@
     "posts": [
         {
             "id": 1,
-            "avatar": "L",
-            "user": "Noila Ibodullayeva",
+            "avatar": "n",
+            "user": "noilashi",
             "date": "12.11.2023",
-            "img": "https://avatars.mds.yandex.net/i?id=51de0e619cf24f7799af7f4174731b48e949c6ec-8497122-images-thumbs&n=13",
+            "img": "https://avatars.mds.yandex.net/i?id=263f0736b8a89ac6df0a0c52edcf4f0b47b8ac57-9053009-images-thumbs&n=13",
             "desc": "Life is so beautiful so do not try to make it difficult to live, be happy and just live there"
         },
         {
             "id": 2,
-            "avatar": "L",
+            "avatar": "a",
             "user": "Ann Joe",
             "date": "06.12.2023",
             "img": "https://avatars.mds.yandex.net/i?id=baab74af260bc8281ccfec48c0a10aa9c216e97e-9246177-images-thumbs&n=13",
@@ -26,7 +26,7 @@
         },
         {
             "id": 4,
-            "avatar": "L",
+            "avatar": "j",
             "user": "John Adams",
             "date": "23.02.2023",
             "img": "https://avatars.mds.yandex.net/i?id=e075323cd80b17db7367f49893f4f5e25b23690c-9097502-images-thumbs&n=13",
